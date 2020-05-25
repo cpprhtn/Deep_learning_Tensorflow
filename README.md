@@ -5,7 +5,11 @@
 <li>강의 주소</li>
 * https://hunkim.github.io/ml/
 
+<li>아나콘다 - Jupyter Notebook 사용</li>
 
+<p>Tensorflow verson 2.20이지만
+import tensorflow.compat.v1 as tf
+을 이용하여 강의 버전을 맞추어 할것이다.</p>
 
 
 
