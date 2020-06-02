@@ -8,7 +8,7 @@
 <li>아나콘다 - Jupyter Notebook 사용</li>
 
 Tensorflow verson 2.20이지만
-**import tensorflow.compat.v1 as tf
+**import tensorflow.compat.v1 as tf <p>
 tf.disable_v2_behavior()**
 을 이용하여 강의 버전을 맞추어 할것이다.
 
