@@ -10,7 +10,9 @@
 Tensorflow verson 2.20이지만
 **import tensorflow.compat.v1 as tf <p>
 tf.disable_v2_behavior()**
-을 이용하여 강의 버전을 맞추어 할것이다.
+을 이용하여 강의 버전을 맞추어 할것 <p>
+
+* 일부 tf.v1이 적용안되는 부분은 tf.v2 사용
 
 
 
