@@ -6,9 +6,14 @@
 * https://hunkim.github.io/ml/
 
 <li>아나콘다 - Jupyter Notebook 사용</li>
-주피터 에러가 뜸<br>
+### 주피터 Launcher 에러가 뜸
 터미널에서 직접 경로지정<br>
 jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
+
+### AttributeError: module 'tensorflow' has no attribute 'optimizers' Error
+from tensorflow.keras import optimizers load하기 <br>
+<del>tf.optimizers~~()</del> -> optimizers~~()
+
 
 
 Tensorflow verson 2.20이지만
