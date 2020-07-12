@@ -6,6 +6,7 @@
 * https://hunkim.github.io/ml/
 
 <li>아나콘다 - Jupyter Notebook 사용</li>
+
 ### 주피터 Launcher 에러가 뜸
 터미널에서 직접 경로지정<br>
 jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
@@ -13,6 +14,8 @@ jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
 ### AttributeError: module 'tensorflow' has no attribute 'optimizers' Error
 from tensorflow.keras import optimizers load하기 <br>
 <del>tf.optimizers~~()</del> -> optimizers~~()
+
+참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
 
 
 
