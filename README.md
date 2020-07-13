@@ -17,15 +17,16 @@ jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
 ```
 from tensorflow.keras import optimizers
 <del>tf.optimizers~~()</del> -> optimizers~~()
-```
+
 참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
+```
 
 
 
 Tensorflow verson 2.20이지만
 ```
-**import tensorflow.compat.v1 as tf <p>
-tf.disable_v2_behavior()**
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 ```
 을 이용하여 강의 버전을 맞추어 할것 <p>
 
