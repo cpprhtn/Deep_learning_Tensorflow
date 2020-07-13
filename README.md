@@ -9,19 +9,24 @@
 
 ### 주피터 Launcher 에러가 뜸
 터미널에서 직접 경로지정<br>
+```
 jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
+```
 
 ### AttributeError: module 'tensorflow' has no attribute 'optimizers' Error
-from tensorflow.keras import optimizers load하기 <br>
+```
+from tensorflow.keras import optimizers
 <del>tf.optimizers~~()</del> -> optimizers~~()
-
+```
 참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
 
 
 
 Tensorflow verson 2.20이지만
+```
 **import tensorflow.compat.v1 as tf <p>
 tf.disable_v2_behavior()**
+```
 을 이용하여 강의 버전을 맞추어 할것 <p>
 
 * 일부 tf.v1이 적용안되는 부분은 tf.v2 사용
