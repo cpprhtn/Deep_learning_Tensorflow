@@ -7,7 +7,7 @@
 
 <li>아나콘다 - Jupyter Notebook 사용</li>
 
-### 주피터 Launcher 에러가 뜸
+#### 주피터 Launcher 에러가 뜰 경우
 터미널에서 직접 경로지정<br>
 ```
 jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
