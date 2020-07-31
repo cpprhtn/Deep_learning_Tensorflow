@@ -17,9 +17,8 @@ jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
 ```
 from tensorflow.keras import optimizers
 <del>tf.optimizers~~()</del> -> optimizers~~()
-
-참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
 ```
+참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
 
 
 
