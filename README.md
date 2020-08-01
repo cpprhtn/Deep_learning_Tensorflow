@@ -15,8 +15,8 @@ jupyter notebook --notebook-dir="/Users/cpprhtn/Desktop"
 
 ### AttributeError: module 'tensorflow' has no attribute 'optimizers' Error
 ```
-from tensorflow.keras import optimizers
-<del>tf.optimizers~~()</del> -> optimizers~~()
+from tensorflow.keras import optimizers 선언해주기
+tf.optimizers~~() 대신 optimizers~~() 사용하기
 ```
 참고주소 https://stackoverflow.com/questions/58837321/how-to-fix-attributeerror-module-tensorflow-has-no-attribute-optimizers-in
 
